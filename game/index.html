@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Harbor Lights — Spot the Difference</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <canvas id="game" width="1280" height="760" aria-label="Harbor Lights spot the difference game"></canvas>
+      <div class="controls">
+        <button id="btn-hint" type="button">💡 Hint (H)</button>
+        <button id="btn-restart" type="button">↺ Restart level (R)</button>
+        <button id="btn-start" type="button">▶ Start / Next (Enter)</button>
+      </div>
+      <p class="note">
+        Harbor Lights — an original spot-the-difference game. Three hand-drawn scenes
+        (Lighthouse Cove, Grandma's Garden, Lantern Market), seven hidden differences
+        in each. Click a difference on either picture to circle it. No network, no
+        tracking — everything runs from these files.
+      </p>
+    </main>
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>

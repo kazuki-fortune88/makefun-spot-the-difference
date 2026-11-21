@@ -1,0 +1,69 @@
+/* Harbor Lights — page chrome around the game canvas. */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #17141f;
+  color: #f3ede0;
+  font-family: Georgia, 'Times New Roman', serif;
+  display: flex;
+  justify-content: center;
+  padding: 18px 12px 32px;
+}
+
+main {
+  width: min(1280px, 100%);
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+  background: #23202e;
+  cursor: crosshair;
+}
+
+.controls {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+
+.controls button {
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: bold;
+  color: #23202e;
+  background: #ffd94d;
+  border: none;
+  border-radius: 999px;
+  padding: 11px 22px;
+  cursor: pointer;
+  box-shadow: 0 4px 0 #b89a2e;
+}
+
+.controls button:hover {
+  background: #ffe27a;
+}
+
+.controls button:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #b89a2e;
+}
+
+.note {
+  text-align: center;
+  color: #b9b3c4;
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 760px;
+  margin: 18px auto 0;
+}
